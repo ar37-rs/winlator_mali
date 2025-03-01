@@ -6,10 +6,13 @@
 
 Winlator is an Android application that lets you to run Windows (x86_64) applications with Wine and Box86/Box64.
 
-# Installation
+v10 nodified for mali:
 
-1. Download and install the APK from [GitHub Releases](https://github.com/brunodev85/winlator/releases)
-2. Launch the app and wait for the installation process to finish
+Thanks to
+https://github.com/ajay9634/winlator-ajay
+
+https://github.com/Fcharan/WinlatorMali
+
 
 ----
 
