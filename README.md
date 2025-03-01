@@ -2,13 +2,10 @@
 	<img src="logo.png" width="376" height="128" alt="Winlator Logo" />  
 </p>
 
-# Winlator
+# Winlator 10 modified for mali:
 
-Winlator is an Android application that lets you to run Windows (x86_64) applications with Wine and Box86/Box64.
+Based on:
 
-v10 nodified for mali:
-
-Thanks to
 https://github.com/ajay9634/winlator-ajay
 
 https://github.com/Fcharan/WinlatorMali
