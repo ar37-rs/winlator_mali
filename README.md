@@ -4,7 +4,7 @@
 
 # Winlator 10 modified for mali:
 
-Based on:
+Based on and thanks to:
 
 https://github.com/ajay9634/winlator-ajay
 
