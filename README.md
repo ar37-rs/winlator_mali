@@ -10,7 +10,9 @@
 * Graphics Driver set to VirGL
 * DX Wrapper set to WineD3D
 * Add recommended settings to ENVIRONMENT VARIABLES:
+  
    BOX64_MMAP32 set value to 1
+  
    BOX64_SAFEFLAGS set value to 2
 
 # Wine config
