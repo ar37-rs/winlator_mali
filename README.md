@@ -2,7 +2,16 @@
 	<img src="logo.png" width="376" height="128" alt="Winlator Logo" />  
 </p>
 
-# Winlator 10 modified for mali:
+# Winlator 10 modified for mali GPUs:
+
+### Signed with different signature, uninstall the original one before installing the mali version.
+### Use Virgl + WineD3D driver
+
+(Only supported apps/games with D3D up to D3D9 only):
+* Fix blackscreen for some apps/games:
+   OffScreenRendering -> use_backbuffer.bat
+* Fix glitches for some apps/games:
+   OffScreenRendering -> use_fbo.bat
 
 Based on and thanks to:
 
