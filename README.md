@@ -15,8 +15,9 @@
   
    BOX64_SAFEFLAGS set value to 2
 
+   MESA_GLSL_VERSION_OVERRIDE set value to 410
+
 # Wine config
-* Only supported apps/games with D3D up to D3D9 only
 * Choose suitable version of wined3d accordingly (each game/app may require different version)
 * Fix blackscreen for some apps/games:
    OffScreenRendering -> use_backbuffer.bat
