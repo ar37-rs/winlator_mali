@@ -2,14 +2,19 @@
 	<img src="logo.png" width="376" height="128" alt="Winlator Logo" />  
 </p>
 
-# Winlator 10.0 final modified for Mali GPUs
+# Winlator 10.0 hotfix modified for Mali GPUs
 
 ### Signed with different signature, uninstall the original one before installing the mali version.
 
-# Winulator config
+# Winulator vrigl config (Mali-G52 and Up)
 * Graphics Driver set to VirGL
 * DX Wrapper set to WineD3D
-* Add recommended settings to ENVIRONMENT VARIABLES:
+  
+# Winulator vortex config (Mali-G57 and Up only)
+* Graphics Driver set to Vortex (Universal)
+* DX Wrapper set to WineD3D
+
+# Add recommended settings to ENVIRONMENT VARIABLES:
   
    BOX64_MMAP32 set value to 1
   
@@ -19,10 +24,9 @@
 
 # Wine config
 * Choose suitable version of wined3d accordingly (each game/app may require different version)
-* Fix blackscreen for some apps/games:
-   OffScreenRendering -> use_backbuffer.bat
-* Fix glitches for some apps/games:
-   OffScreenRendering -> use_fbo.bat
+* OffScreenRendering mode
+  Rendering -> Backbuffer.bat (may fix blackscreen on some devices)
+  Rendering -> FBO.bat (default)
 
 
 Based on and thanks to:
