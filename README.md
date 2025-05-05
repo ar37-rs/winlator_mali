@@ -24,8 +24,13 @@
 
 # Wine config
 * Choose suitable version of wined3d accordingly (each game/app may require different version)
-* OffScreenRendering mode
+* OffScreenRendering mode:
+  Using Backbuffer:
+  
   Rendering -> Backbuffer.bat (may fix blackscreen on some devices)
+
+  Using FramebufferOBject:
+  
   Rendering -> FBO.bat (default)
 
 
