@@ -22,6 +22,8 @@
 
    MESA_GLSL_VERSION_OVERRIDE set value to 410
 
+   WINEDEBUG set value to -all
+
 # Wine config
 * Choose suitable version of wined3d accordingly (each game/app may require different version)
 * OffScreenRendering mode:
