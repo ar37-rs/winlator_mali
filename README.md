@@ -12,7 +12,7 @@
   
 # Winulator vortex config (Mali-G57 and Up only)
 * Graphics Driver set to Vortex (Universal)
-* DX Wrapper set to WineD3D
+* DX Wrapper set to DXVK or WineD3D
 
 # Add recommended settings to ENVIRONMENT VARIABLES:
   
