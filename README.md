@@ -18,20 +18,28 @@
 * Add ENVIRONMENT VARIABLES (choose which best accordingly)
 
    For OpenGL 2.1:
-      ```MESA_GL_VERSION_OVERRIDE``` set value to ```2.1COMPAT```
-      ```MESA_GLSL_VERSION_OVERRIDE``` set value to ```120```
+   
+   ```MESA_GL_VERSION_OVERRIDE``` set value to ```2.1COMPAT```
+   
+   ```MESA_GLSL_VERSION_OVERRIDE``` set value to ```120```
       
    For OpenGL 3.2:
-      ```MESA_GL_VERSION_OVERRIDE``` set value to ```3.2COMPAT```
-      ```MESA_GLSL_VERSION_OVERRIDE``` set value to ```150```
+   
+   ```MESA_GL_VERSION_OVERRIDE``` set value to ```3.2COMPAT```
+   
+   ```MESA_GLSL_VERSION_OVERRIDE``` set value to ```150```
 
    For OpenGL 3.3:
-      ```MESA_GL_VERSION_OVERRIDE``` set value to ```3.3COMPAT```
-      ```MESA_GLSL_VERSION_OVERRIDE``` set value to ```330```
+   
+   ```MESA_GL_VERSION_OVERRIDE``` set value to ```3.3COMPAT```
+   
+   ```MESA_GLSL_VERSION_OVERRIDE``` set value to ```330```
     
    For OpenGL 4.1:
-      ```MESA_GL_VERSION_OVERRIDE``` set value to ```4.1COMPAT```
-      ```MESA_GLSL_VERSION_OVERRIDE``` set value to ```410```
+   
+   ```MESA_GL_VERSION_OVERRIDE``` set value to ```4.1COMPAT```
+   
+   ```MESA_GLSL_VERSION_OVERRIDE``` set value to ```410```
         
 * Graphics Driver set to Vortex (Universal)
 * DX Wrapper set to WineD3D
