@@ -9,7 +9,7 @@
 ### Winulator vrigl config (Mali-G52 and Up)
 * Add ENVIRONMENT VARIABLE
 
-   ```MESA_GLSL_VERSION_OVERRIDE``` set value to ```410``` or ```150``` (choose which best accordingly)
+   ```MESA_GLSL_VERSION_OVERRIDE``` set value to ```410```,  ```150``` or ```140``` (choose which best accordingly)
    
 * Graphics Driver set to VirGL
 * DX Wrapper set to WineD3D
