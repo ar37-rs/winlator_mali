@@ -6,23 +6,47 @@
 
 ### Signed with different signature, uninstall the original one before installing the mali version.
 
-# Winulator vrigl config (Mali-G52 and Up)
+### Winulator vrigl config (Mali-G52 and Up)
+* Add ENVIRONMENT VARIABLE
+
+   ```MESA_GLSL_VERSION_OVERRIDE``` set value to ```410``` or ```150``` (choose which best accordingly)
+   
 * Graphics Driver set to VirGL
 * DX Wrapper set to WineD3D
   
-# Winulator vortex config (Mali-G57 and Up only)
+### Winulator vortex + WineD3D config (Mali-G57 and Up only)
+* Add ENVIRONMENT VARIABLES (choose which best accordingly)
+
+   For OpenGL 2.1:
+      ```MESA_GL_VERSION_OVERRIDE``` set value to ```2.1COMPAT```
+      ```MESA_GLSL_VERSION_OVERRIDE``` set value to ```120```
+      
+   For OpenGL 3.2:
+      ```MESA_GL_VERSION_OVERRIDE``` set value to ```3.2COMPAT```
+      ```MESA_GLSL_VERSION_OVERRIDE``` set value to ```150```
+
+   For OpenGL 3.3:
+      ```MESA_GL_VERSION_OVERRIDE``` set value to ```3.3COMPAT```
+      ```MESA_GLSL_VERSION_OVERRIDE``` set value to ```330```
+    
+   For OpenGL 4.1:
+      ```MESA_GL_VERSION_OVERRIDE``` set value to ```4.1COMPAT```
+      ```MESA_GLSL_VERSION_OVERRIDE``` set value to ```410```
+        
 * Graphics Driver set to Vortex (Universal)
-* DX Wrapper set to DXVK or WineD3D
+* DX Wrapper set to WineD3D
 
-# Add recommended settings to ENVIRONMENT VARIABLES:
+### Winulator vortex + DXVK config (Mali-G57 and Up only)
+* Graphics Driver set to Vortex (Universal)
+* DX Wrapper set to DXVK
+
+### Add recommended settings to ENVIRONMENT VARIABLES:
   
-   BOX64_MMAP32 set value to 1
+   ```BOX64_MMAP32``` set value to ```1```
   
-   BOX64_SAFEFLAGS set value to 2
+   ```BOX64_SAFEFLAGS``` set value to ```2```
 
-   MESA_GLSL_VERSION_OVERRIDE set value to 410
-
-   WINEDEBUG set value to -all
+   ```WINEDEBUG``` set value to ```-all```
 
 # Wine config
 * Choose suitable version of wined3d accordingly (each game/app may require different version)
