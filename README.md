@@ -49,6 +49,8 @@
 * DX Wrapper set to DXVK
 
 ### Add recommended settings to ENVIRONMENT VARIABLES:
+   
+   ```mesa_glthread``` turn off for stability
   
    ```BOX64_MMAP32``` set value to ```1```
   
