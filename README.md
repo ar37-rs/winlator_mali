@@ -74,7 +74,20 @@
   Using FramebufferOBject:
   
   Rendering -> FBO.bat (default)
+* WineD3D Vulkan renderer
 
+   Start Menu -> System Tools -> Registry Editor:
+   
+     Edit HKEY_CURRENT_USER -> Software -> Wine -> Direct3D
+  
+     and new string ```renderer``` and set value data to ```vulkan```
+* WineD3D OpenGL renderer (default)
+
+   Start Menu -> System Tools -> Registry Editor:
+   
+     Edit HKEY_CURRENT_USER -> Software -> Wine -> Direct3D
+  
+     and new string ```renderer``` and set value data to ```gl```
 
 Based on and thanks to:
 
