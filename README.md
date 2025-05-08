@@ -6,7 +6,7 @@
 
 ### Signed with different signature, uninstall the original one before installing the mali version.
 
-### Winulator vrigl config (Mali-G52 and Up)
+### Winulator vrigl config (any Mali-G52 GPU and Up)
 * Add ENVIRONMENT VARIABLE
 
    ```MESA_GLSL_VERSION_OVERRIDE``` set value to ```410```,  ```150``` or ```140``` (choose which best accordingly)
@@ -14,26 +14,14 @@
 * Graphics Driver set to VirGL
 * DX Wrapper set to WineD3D
   
-### Winulator vortex + WineD3D config (Mali-G57 and Up only)
+### Winulator vortex + WineD3D config (supported minimum Mali-G52 GPU with driver version 49.x or Mali-G57 and Up)
 * Add ENVIRONMENT VARIABLES (choose which best accordingly)
-
-   For OpenGL 2.1:
-   
-   ```MESA_GL_VERSION_OVERRIDE``` set value to ```2.1COMPAT```
-   
-   ```MESA_GLSL_VERSION_OVERRIDE``` set value to ```120```
       
    For OpenGL 3.2:
    
    ```MESA_GL_VERSION_OVERRIDE``` set value to ```3.2COMPAT```
    
    ```MESA_GLSL_VERSION_OVERRIDE``` set value to ```150```
-
-   For OpenGL 3.3:
-   
-   ```MESA_GL_VERSION_OVERRIDE``` set value to ```3.3COMPAT```
-   
-   ```MESA_GLSL_VERSION_OVERRIDE``` set value to ```330```
     
    For OpenGL 4.1:
    
@@ -44,9 +32,22 @@
 * Graphics Driver set to Vortex (Universal)
 * DX Wrapper set to WineD3D
 
-### Winulator vortex + DXVK config (Mali-G57 and Up only)
+### Winulator vortex + DXVK config (supported minimum Mali-G52 GPU with driver version 49.x or Mali-G57 and Up)
 * Graphics Driver set to Vortex (Universal)
+* Vortex Configure:
+  
+   Vulkan version (choose accordingly)
+
+   Max Device Memory (set accordingly)
+  
+   Exposed Extensions (unchecklist the ```VK_EXT_extended_dynamic_state``` to fix the missing textures in some games for some Mali drivers)
+  
 * DX Wrapper set to DXVK
+* Disable WineD3D on wine
+
+   Start Menu -> WineD3D_Renderer -> Disable.bat (fix crash in some games)
+
+   and then restart wine
 
 ### Add recommended settings to ENVIRONMENT VARIABLES:
    
