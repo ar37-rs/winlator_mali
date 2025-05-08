@@ -40,7 +40,7 @@
 
    Max Device Memory (set accordingly)
   
-   Exposed Extensions (unchecklist the ```VK_EXT_extended_dynamic_state``` to fix the missing textures in some games for some Mali drivers)
+   Exposed Extensions (uncheck the ```VK_EXT_extended_dynamic_state``` to fix the missing textures in some games for some Mali drivers)
   
 * DX Wrapper set to DXVK
 * Disable WineD3D on wine
