@@ -45,9 +45,13 @@
 * DX Wrapper set to DXVK
 * Disable WineD3D on wine
 
-   Start Menu -> WineD3D_Renderer -> Disable.bat (fix crash in some games)
+   Start Menu -> System Tools -> Registry Editor:
+   
+     Edit HKEY_CURRENT_USER -> Software -> Wine -> Direct3D
+  
+     and new string ```renderer``` and set value data to ```no3d```
 
-   and then restart wine
+    as mentioned [here](https://github.com/brunodev85/winlator/issues/710#issuecomment-2849061640) for more info
 
 ### Add recommended settings to ENVIRONMENT VARIABLES:
    
