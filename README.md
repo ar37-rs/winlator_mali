@@ -31,6 +31,20 @@
         
 * Graphics Driver set to Vortex (Universal)
 * DX Wrapper set to WineD3D
+* WineD3D Vulkan renderer mode
+
+   Start Menu -> System Tools -> Registry Editor:
+   
+     Edit HKEY_CURRENT_USER -> Software -> Wine -> Direct3D
+  
+     and new string ```renderer``` and set value data to ```vulkan```
+* WineD3D OpenGL renderer mode (default)
+
+   Start Menu -> System Tools -> Registry Editor:
+   
+     Edit HKEY_CURRENT_USER -> Software -> Wine -> Direct3D
+  
+     and new string ```renderer``` and set value data to ```gl```
 
 ### Winulator vortex + DXVK config (supported minimum Mali-G52 GPU with driver version 49.x or Mali-G57 and Up)
 * Graphics Driver set to Vortex (Universal)
@@ -74,20 +88,6 @@
   Using FramebufferOBject:
   
   Rendering -> FBO.bat (default)
-* WineD3D Vulkan renderer
-
-   Start Menu -> System Tools -> Registry Editor:
-   
-     Edit HKEY_CURRENT_USER -> Software -> Wine -> Direct3D
-  
-     and new string ```renderer``` and set value data to ```vulkan```
-* WineD3D OpenGL renderer (default)
-
-   Start Menu -> System Tools -> Registry Editor:
-   
-     Edit HKEY_CURRENT_USER -> Software -> Wine -> Direct3D
-  
-     and new string ```renderer``` and set value data to ```gl```
 
 Based on and thanks to:
 
