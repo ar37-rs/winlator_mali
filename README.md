@@ -2,100 +2,20 @@
 	<img src="logo.png" width="376" height="128" alt="Winlator Logo" />  
 </p>
 
-# Winlator 10.0 hotfix modified and added some tweaks for Mali GPUs
+# Winlator Ludashi 4.1 for Mali GPUs
+Settings and tutorials are in .zip file.
 
-### Signed with different signature, uninstall the original one before installing the mali version.
+### Signed with different signature, uninstall the original one before installing the Ludashi version.
 
-### Winulator vrigl config (any Mali-G52 GPU and Up)
-* Add ENVIRONMENT VARIABLE
+Based on and additional thanks to:
 
-   ```MESA_GLSL_VERSION_OVERRIDE``` set value to ```410```,  ```150``` or ```140``` (choose which best accordingly)
-   
-* Graphics Driver set to VirGL
-* DX Wrapper set to WineD3D
-  
-### Winulator vortex + WineD3D config (supported minimum Mali-G52 GPU with driver version 49.x or Mali-G57 and Up)
-* Add ENVIRONMENT VARIABLES (choose which best accordingly)
-      
-   For OpenGL 3.2:
-   
-   ```MESA_GL_VERSION_OVERRIDE``` set value to ```3.2COMPAT```
-   
-   ```MESA_GLSL_VERSION_OVERRIDE``` set value to ```150```
-    
-   For OpenGL 4.1:
-   
-   ```MESA_GL_VERSION_OVERRIDE``` set value to ```4.1COMPAT```
-   
-   ```MESA_GLSL_VERSION_OVERRIDE``` set value to ```410```
-        
-* Graphics Driver set to Vortex (Universal)
-* DX Wrapper set to WineD3D
-* WineD3D Vulkan renderer mode
+https://github.com/brunodev85/winlator
 
-   Start Menu -> System Tools -> Registry Editor:
-   
-     Edit HKEY_CURRENT_USER -> Software -> Wine -> Direct3D
-  
-     and new string ```renderer``` and set value data to ```vulkan```
-* WineD3D OpenGL renderer mode (default)
+https://github.com/StevenMXZ/Winlator-Ludashi
 
-   Start Menu -> System Tools -> Registry Editor:
-   
-     Edit HKEY_CURRENT_USER -> Software -> Wine -> Direct3D
-  
-     and new string ```renderer``` and set value data to ```gl```
+https://github.com/Pipetto-crypto/winlator
 
-### Winulator vortex + DXVK config (supported minimum Mali-G52 GPU with driver version 49.x or Mali-G57 and Up)
-* Graphics Driver set to Vortex (Universal)
-* Vortex Configure:
-  
-   Vulkan version (choose accordingly)
-
-   Max Device Memory (set accordingly)
-  
-   Exposed Extensions (uncheck the ```VK_EXT_extended_dynamic_state``` to fix the missing textures in some games for some Mali drivers)
-  
-* DX Wrapper set to DXVK
-* Disable WineD3D on wine
-
-   Start Menu -> System Tools -> Registry Editor:
-   
-     Edit HKEY_CURRENT_USER -> Software -> Wine -> Direct3D
-  
-     and new string ```renderer``` and set value data to ```no3d```
-
-    as mentioned [here](https://github.com/brunodev85/winlator/issues/710#issuecomment-2849061640) for more info
-
-### Add recommended settings to ENVIRONMENT VARIABLES:
-   
-   ```mesa_glthread``` turn off for stability
-  
-   ```BOX64_MMAP32``` set value to ```1```
-  
-   ```BOX64_SAFEFLAGS``` set value to ```2```
-
-   ```WINEDEBUG``` set value to ```-all```
-
-# Wine config
-* Choose suitable version of wined3d accordingly (each game/app may require different version)
-* OffScreenRendering mode:
-  
-  Using Backbuffer:
-  
-  Rendering -> Backbuffer.bat (fix blackscreen on some devices)
-
-  Using FramebufferOBject:
-  
-  Rendering -> FBO.bat (default)
-
-Based on and thanks to:
-
-https://github.com/ajay9634/winlator-ajay
-
-https://github.com/Fcharan/WinlatorMali
-
-https://github.com/afeimod/winlator-mod
+https://github.com/utkarshdalal/GameNative
 
 ----
 
