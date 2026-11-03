@@ -17,6 +17,8 @@ https://github.com/Pipetto-crypto/winlator
 
 https://github.com/utkarshdalal/GameNative
 
+https://github.com/soulexit/panvk-kirin990
+
 ----
 
 [![Play on Youtube](https://img.youtube.com/vi/ETYDgKz4jBQ/3.jpg)](https://www.youtube.com/watch?v=ETYDgKz4jBQ)
