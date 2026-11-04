@@ -19,6 +19,8 @@ https://github.com/utkarshdalal/GameNative
 
 https://github.com/soulexit/panvk-kirin990
 
+https://github.com/JimVulkan/mali-panvk
+
 ----
 
 [![Play on Youtube](https://img.youtube.com/vi/ETYDgKz4jBQ/3.jpg)](https://www.youtube.com/watch?v=ETYDgKz4jBQ)
