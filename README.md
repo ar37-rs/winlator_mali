@@ -2,7 +2,7 @@
 	<img src="logo.png" width="376" height="128" alt="Winlator Logo" />  
 </p>
 
-# Winlator Ludashi 4.1 for Mali GPUs
+# Winlator Ludashi for Mali GPUs
 Settings and tutorials are in .zip file.
 
 ### Signed with different signature, uninstall the original one before installing the Ludashi version.
@@ -17,7 +17,7 @@ https://github.com/Pipetto-crypto/winlator
 
 https://github.com/utkarshdalal/GameNative
 
-https://github.com/soulexit/panvk-kirin990
+https://github.com/soulexit/panvk-bifrost-soulexit
 
 https://github.com/JimVulkan/mali-panvk
 
