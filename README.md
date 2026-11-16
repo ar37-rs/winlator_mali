@@ -3,7 +3,7 @@
 </p>
 
 # Winlator Ludashi for Mali GPUs
-Settings and tutorials are in .zip file.
+Settings and tutorials are in [.zip](https://github.com/ar37-rs/winlator_mali/releases/tag/Winlator_Ludashi_Mali) file.
 
 ### Signed with different signature, uninstall the original one before installing the Ludashi version.
 
